@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, UsageMonitoringActivity!</string>
+    <string name="app_name">UsageMonitoring</string>
+    <string name="new_">new</string>
+    <string name="help">Help</string>
+    <string name="file">File</string>
+    <string name="create_new">Create New</string>
+    <string name="open">Open</string>
+    
+
+</resources>

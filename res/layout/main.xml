@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/startlearningbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start learning" />
+
+            <Button
+                android:id="@+id/stoplearningbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stop learning" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/cleartraining"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear Training Data " />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/startmonitoringbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start monitoring" />
+
+            <Button
+                android:id="@+id/stopmonitoringbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stop monitoring" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/cleartesting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear Testing Data " />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
