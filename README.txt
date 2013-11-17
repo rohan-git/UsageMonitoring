@@ -11,8 +11,9 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+----------------------------------------------------------------------------------
 
-A continous authentication application for Android based devices.
+UsageMonitoring application is a continous authentication application for Android based devices.
 
 Monitors
  - Recent Applications usage
